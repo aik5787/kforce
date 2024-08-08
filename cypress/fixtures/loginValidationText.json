@@ -1,0 +1,5 @@
+{
+  "userNameRequired": "The User Name field is require",
+  "userPasswordRequired": "The Password field is required",
+  "incorrectCredentials": "The user name or password is incorrect."
+}
