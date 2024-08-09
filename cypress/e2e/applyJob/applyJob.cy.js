@@ -28,7 +28,7 @@ describe("Job Application", () => {
     applyJobPage.stateSelect.select(jobDetails.state);
     applyJobPage.zipInput.type(jobDetails.zip);
     applyJobPage.countrySelect.select(jobDetails.country);
-    applyJobPage.chooseFile.attachFile("files/resume.pdf");
+    applyJobPage.chooseFile.attachFile("files/testresume.pdf");
     applyJobPage.elegibilitySelect.check();
 
     applyJobPage.firstNameInput.should("have.value", jobDetails.firstName);
